@@ -1,1 +1,2 @@
-
+This short bit of code simply exists to showcase a binary search algorithm. The function itself is recursive, and an
+array to look through is specified in main().
