@@ -1,13 +1,5 @@
-// CS311 Yoshii dgraph.h that uses slist.h
-// INSTRUCTION:
-//  You need to comment this file completely
-//  using the How to Comment file.
-//  You have seen many examples so far.
-//  We will check to see how well you have commented it.
-//-----------------------------------------------------
-
 // =======================================================
-// HW#: HW6 dgraph
+// dgraph.h
 // Name: Tyler Gerritsen
 // File Type: Header
 // ==================================================
@@ -27,7 +19,7 @@ struct Gvertex
   char vertexName;      //the vertex Name
   int outDegree;	//the Out degree
   slist adjacentOnes;   //the adjecent vertices in an slist
-  int visit;            // This will hold the visit number in HW7 
+  int visit;            // This will hold the visit number 
 };
 
 class dgraph
