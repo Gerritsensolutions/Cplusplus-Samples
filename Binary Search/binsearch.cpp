@@ -2,7 +2,7 @@ using namespace std;
 #include <iostream>
 
 //--------------------------------------------
-// CS311 HW2P1 Binary Search
+// Binary Search
 // Name: Tyler Gerritsen
 // Compiler: g++
 // --------------------------------------------
