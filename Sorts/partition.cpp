@@ -2,11 +2,8 @@
 #include<iostream>
 using namespace std;
 
-// You may not change my code in any manner.  0 pts if you do.
-// Simply add your code for **
-
 //----------------------------------------
-//CS311 HW2P2 Partition
+//Partition
 //Name: Tyler Gerritsen
 //Compiler: g++
 //-----------------------------------------
