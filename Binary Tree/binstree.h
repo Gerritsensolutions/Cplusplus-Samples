@@ -1,7 +1,3 @@
-// CS311: BST header file for HW4 - by Yoshii - DO NOT CHANGE!!
-// This BST has an Up link to make it easy to go up the tree later 
-//------------------------------------------------------------
-
 // tree element type is int for now
 typedef int elem_t;   // elem_t is hidden from the client
 
@@ -12,8 +8,6 @@ struct Vertex
   Vertex *Left;
   elem_t  Elem;
   Vertex *Right;
-  int Height;  // for EC 
-  int Balance;  // for EC 
 };   
 
 // this is set up to be inherited by another class
@@ -62,8 +56,6 @@ class BST
   
   elem_t findMax(Vertex*);  // finds the MAX element in the
   // left sub-tree of the vertex and also deletes it
-  
-  void climbup(Vertex*);
 };
 
 
