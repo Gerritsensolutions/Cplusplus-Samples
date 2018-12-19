@@ -1,11 +1,6 @@
-
-
-// CS311 Yoshii - HW5 Priority Queue Implementation File
-// Complete all ** parts and give good comments
-
 // =================================================
-// HW5 Priority Printer Queue 
-// YOUR NAME: Tyler Gerritsen
+// Priority Printer Queue 
+// NAME: Tyler Gerritsen
 // File Type: implementation pqueue.cpp
 // =================================================
 
@@ -58,8 +53,6 @@ void pqueue::trickleup()
   // ** while x is > 0
   while ( x > 0 ) {
     // compare Q[x] with the parent and if the parent is bigger swap & update x. Otherwise stop.
-    // You can call getParent to get the location of the parent
-    //cout << "Qx: " << Q[x] << " - parent: " << Q[getParent(x)] << endl; 
     if ( Q[x] < Q[getParent(x)] ) {
       //cout << "Qx < parent" << endl;
       int temp = Q[x];
@@ -95,12 +88,11 @@ void pqueue::reheapify()
   // move the last job to the front
   Q[0] = Q[count - 1];
   
-  // ** start at the root and repeat the following:
+  // repeats the following:
   // find the location of the smaller child if you have not fallen off the tree yet
   // if the smaller child is smaller than the parent, swap
   int i = 0;
   while ( getSmallerChild(i) < count ) {
-    //cout << "child: " << getSmallerChild(i) << endl;
     if ( Q[getSmallerChild(i)] < Q[i] ) {
       int temp = Q[i];
       Q[i] = Q[getSmallerChild(i)];
@@ -118,7 +110,7 @@ void pqueue::reheapify()
 // where children at locations 2*i+1 and 2*i+2
 int pqueue::getSmallerChild(int i)
 {
-  // ** return the location of the smaller child
+  // return the location of the smaller child
   if ( Q[2*i+2] > Q[2*i+1] ) {
     return (2*i+1);
   }
