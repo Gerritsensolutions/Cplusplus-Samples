@@ -1,11 +1,5 @@
-//CS311 Yoshii
-//INSTRUCTION:
-//Look for ** to complete all of them
-//The output should match my assingment sheet
-//DO not forget to Tab on each line
-
 //=========================================================
-//HW#: HW3P2 slist
+//slist
 //Your name: **
 //Complier:  g++
 //File type: client program (tester) HW3P2client.cpp
