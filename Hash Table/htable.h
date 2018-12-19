@@ -1,5 +1,8 @@
-// CS311 Yoshii - Hash Table header DO NOT CHANGE!!! 
-// ------------------------------------------------
+// ============================================
+// Hash Table
+// Name: Tyler Gerritsen
+// File Type: header
+// =============================================
 
 #include "slist.h"
 
