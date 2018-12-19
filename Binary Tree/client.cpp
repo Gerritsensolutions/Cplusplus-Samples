@@ -1,5 +1,9 @@
-// CS311 This client tests the BST class - by Yoshii - DO NOT CHANGE!!
-//-------------------------------------------------------------------
+// Short test file for the binary tree
+/* 
+ * client.cpp
+ * name: Tyler Gerritsen
+ * compiler: g++
+ */
 
 #include <iostream>
 using namespace std;
