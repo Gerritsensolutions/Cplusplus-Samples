@@ -1,10 +1,5 @@
-//CS311 Yoshii
-//INSTRUCTION:
-//Look for ** to complete all of them
-//The output should match my assignment sheet
-
 //=========================================================
-//HW#: HW3P1 llist
+//llist
 //Your name: Tyler Gerritsen
 //Complier:  g++
 //File type: client program (tester) HW3P1client.cpp
@@ -232,7 +227,7 @@ void caseThree()
 }
 
 //PURPOSE of the Program: to test llist thoroughly
-//Algorithm/Design: 3 test cases are divided into functions and ***
+//Algorithm/Design: 3 test cases are divided into functions
 int main()
 {
   int selection; // this will display what the user wants to do
