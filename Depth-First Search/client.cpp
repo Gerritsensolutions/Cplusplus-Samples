@@ -1,7 +1,7 @@
 //==========================================
-// HW#: HW7 DFS client using dgraph.h
+// DFS client using dgraph.h
 // Name: Tyler Gerritsen
-// File type: client hw7client.cpp 
+// File type: client
 //==========================================
 
 // Be sure to include dgraph, slist and stack
