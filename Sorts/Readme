@@ -1,1 +1,10 @@
+These two files are essentially standalone programs. They are demonstrations of the most significant steps in two key
+sorting algorithms that we use commonly in computer science: merge sort and quick sort.
 
+Combine.cpp is used in merge sort. The algorithm is repeated again and again on a seperated list to merge it together
+into a sorted form.
+
+Partition.cpp is a commonly used algorithm in quick sort that partitions a list into seperate groups. This specific
+version of the algorithm uses a "pivot" point to decide where to partition the list.
+
+To compile, simply choose one file. Each is standalone, and will compile just fine all by itself.
