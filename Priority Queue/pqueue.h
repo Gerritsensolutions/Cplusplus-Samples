@@ -1,8 +1,8 @@
-// CS311 Yoshii
-// - header file for priority printer queue HW5 
-// - heaptree priority queue impleneted using an array
-// DO NOT CHANGE!!!
-// ---------------------------------------------
+// =================================================
+// Priority Printer Queue 
+// NAME: Tyler Gerritsen
+// File Type: header pqueue.h
+// =================================================
 
 #include <iostream>
 using namespace std;
@@ -22,7 +22,7 @@ class pqueue
                   //- compares L and R children of the given location
   void trickleup();    // trickling up after adding at the rear
   int getParent(int);  // return the parent location given the child loc
-  bool even(int);      // is the number even?  Needed to find the parent
+  bool even(int);      // Needed to find the parent
 
 public:
     pqueue();
