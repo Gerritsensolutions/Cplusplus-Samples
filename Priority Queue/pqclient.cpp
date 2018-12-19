@@ -1,6 +1,9 @@
-// CS311 Yoshii - HW5 Priority Queue Client File
-// DO NOT CHANGE!!!!
-//------------------------------------------
+//====================================
+// pqueue client file
+// name: Tyler Gerritsen
+// compiler: g++
+// intended solely to test and demonstrate the functionality of the priority queue
+//====================================
 
 #include "pqueue.h"
 
