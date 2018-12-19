@@ -1,3 +1,9 @@
+/*
+* binstree.h
+* name: Tyler Gerritsen
+* compiler: g++
+* binary tree header file
+
 // tree element type is int for now
 typedef int elem_t;   // elem_t is hidden from the client
 
