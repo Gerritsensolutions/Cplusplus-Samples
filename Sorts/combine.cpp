@@ -3,7 +3,7 @@ using namespace std;
 #include <vector>
 
 //--------------------------------------------
-//CS311 HW2P2 Combine 
+//Combine 
 //Name: Tyler Gerritsen
 //Compiler: g++
 //--------------------------------------------
