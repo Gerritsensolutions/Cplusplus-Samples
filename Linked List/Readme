@@ -1,1 +1,2 @@
-
+Nothing but a linked list class and two client files to test it. To compile, link the llist header and implementation
+with client1, or client2 if you also want to compile the slist header and implementation for enhanced functionality.
