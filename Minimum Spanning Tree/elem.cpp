@@ -1,8 +1,5 @@
-// CS311 Yoshii - defines node element level functions for a Node for dgraph2 use
-// ------------------------------------------------------------
-
 // ====================================
-// EC related element definition
+// element definition
 // NAME: Tyler Gerritsen
 // File: elem.cpp for graph algorithms
 // ====================================
