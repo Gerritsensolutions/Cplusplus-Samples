@@ -1,10 +1,8 @@
-// CS311 Yoshii - this class defines Elem type for a Node
-// Because it now has multiple parts, operator== and cout
-// must be defined for the list classes to work.
-// The client (dgraph2)
-// gets to use this class for its node Elem.
-// DO NOT CHANGE!!
-// -----------------------------------------------------
+//========================================
+// header for the MST element
+// name: Tyler Gerritsen
+// compiler: g++
+//========================================
 #ifndef ELEM_H
 #define ELEM_H
 
@@ -36,8 +34,7 @@ class el_t
   // is not el_t
   friend ostream& operator<<(ostream&, const el_t&);  
 
-  friend class dgraph;  // dgraph2 is the client of this class
-                         // so it is able to use the private parts
+  friend class dgraph;
 };
 
 #endif
