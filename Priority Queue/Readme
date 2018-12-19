@@ -1,2 +1,4 @@
 This project is a different implementation of a tree data structure. It is intended to simulate a priority printer
 queue. This queue prioritizes jobs based in required times.
+
+Note: do not compile with the unit tester file. That file is intended for debugging purposes only.
