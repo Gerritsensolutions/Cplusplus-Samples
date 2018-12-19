@@ -1,13 +1,5 @@
-// CS311 Yoshii dgraph.h that uses slist.h
-// INSTRUCTION:
-//  You need to comment this file completely
-//  using the How to Comment file.
-//  You have seen many examples so far.
-//  We will check to see how well you have commented it.
-//-----------------------------------------------------
-
 // =======================================================
-// HW#: HW6 dgraph
+// dgraph
 // Name: Tyler Gerritsen
 // File Type: Header
 // ==================================================
