@@ -1,1 +1,2 @@
-
+Minimum spanning trees (the most efficient possible tree given a set of nodes) are demonstrated here. The input file
+to specify is utable.txt, an undirected set of nodes for a graph.
