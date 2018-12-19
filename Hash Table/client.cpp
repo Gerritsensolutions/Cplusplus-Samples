@@ -1,12 +1,7 @@
-// CS311 Yoshii - complete ** for HW8 client
-// Note that the client knows about elem.h functions.
-// It can create el_t objects.
-//-----------------------------------------------
-
 //============================================
-// HW#: HW8 hashing client
+// hashing client
 // Name: Tyler Gerritsen
-// File type: client hw8client.cpp
+// File type: client client.cpp
 //===========================================
 
 using namespace std;
@@ -22,9 +17,7 @@ int main()
 
   /*
   Loop:  
-   Interactively add about 20 keys and names to the table,
-     making sure some of them  collide. (function add)
-     You can create el_t containing a key and name using a constructor. */
+   Interactively add about 20 keys and names to the table */
   cout << "Enter keys and names to populate the table, then enter -1 to signify the end of your input" << endl;
   cout << "Key: ";
   int key;
