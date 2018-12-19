@@ -1,5 +1,8 @@
-// CS311 Yoshii - MST Extra Credit - Use as is - DO NOT CHANGE!!!
-// ----------------------------------------------------------------
+//=======================================
+// client file for the MST
+// name: Tyler Gerritsen
+// compiler: g++
+//=======================================
 #include <iostream>
 using namespace std;
 
