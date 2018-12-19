@@ -1,11 +1,8 @@
-// CS311 Yoshii - MST and Shortest Path Extra Credit dgraph2.cpp
-// linked list classes should have been updated to use elem.h
-//----------------------------------------------------------
-
 // ========================================
-// EC on MST/Shortest Path
+// MST
 // Name: Tyler Gerritsen
 // File: dgraph2.h implementation
+// Given defined nodes for a directed graph, generates a minimum spanning tree
 // =========================================
 
 using namespace std;
@@ -44,7 +41,7 @@ void dgraph::filltable()
     }
     cout << "Read " << G[count].Name << " ";
     count++;
-  }  // note that you need to create el_t object before adding to list
+  } 
   cout << endl;
   fin.close();
   displayTable();
@@ -130,11 +127,10 @@ void dgraph::makeTree(int i)
 }
 
 // Utility: Enter or update the DISTO of a fringe vertex
-void dgraph::makeFringe(el_t X, char V, int soFar)
+void dgraph::makeFringe(el_t X, char V)
 { 
   // X is the fringe vertex (a node's Elem from slist)
   // V is which tree vertex the edge came from
-  // soFar is the distance to V so far (used for shortest path only)
 
   //**
   X.name = (int)X.name - 65;
