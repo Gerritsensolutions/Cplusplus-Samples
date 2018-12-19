@@ -1,1 +1,2 @@
-
+Given a directed graph of some kind (implemented with an array of linked lists), this program performs a depth-first
+traversal of that graph using a stack. The graph nodes and their adjacent vertices are defined in table.txt
