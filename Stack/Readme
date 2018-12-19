@@ -1,1 +1,2 @@
-
+This stack class is used in client1 to evaluate postfix expressions. To compile, link the stack header and implementation
+and the client1.cpp file. Do not use the stacktest file. It is intended only for debuggin purposes.
