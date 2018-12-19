@@ -1,14 +1,8 @@
-//CS311 Yoshii dgraph.cpp 
-// INSTRUCTION:
-//  Complete all the functions you listed in dgraph.h
-//  Comment the file completely using How to Comment file.
-//  Use HW6-help.docx to finish the functions.
-//-------------------------------------------------------
-
 //======================================================
-// HW#: HW6 dgraph
+// dgraph.cpp
 // Name: Tyler Gerritsen
 // File Type: Implementation
+// represents a directed graph
 //========================================================
 
 using namespace std;
@@ -26,8 +20,8 @@ dgraph::dgraph() { // initialize vertexName (blank) and visit numbers (0)    // 
 }
 
 // default destructor
-dgraph::~dgraph() {  // do we have to delete all nodes of slists in table??
-  // Question: If we do not do this, will the llist destructor be called automatically??? Try it.
+dgraph::~dgraph() { 
+  
 }
 
 // filltable()
