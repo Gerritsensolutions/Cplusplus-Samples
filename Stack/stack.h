@@ -1,13 +1,5 @@
-//CS311 Yoshii 
-//INSTRUCTION:
-//Stack class header file template based on Notes-1
-//You must complete the ** parts and then complete stack.cpp
-//EMACS HINT:
-//  control-S does searches
-//  Tab on each line will indent perfectly for C++
-
 // =======================================================
-// HW#: HW1P1 stack
+// stack
 // Your name: Tyler Gerritsen
 // Compiler:  g++ 
 // File type: headher file stack.h
@@ -18,8 +10,8 @@
 const int MAX = 10;   // The MAX number of elements for the stack
                       // MAX is unknown to the client
 
-typedef int el_t;     // the el_t type is ** for now
-                      // el_t is unknown to the client
+typedef int el_t;     // the el_t type is int for now
+
 //-------------------------------------------------------
 
 
@@ -81,6 +73,4 @@ class stack
   void clearIt();
   
 };  
-
-// Note: semicolon is needed at the end of the header file
 
