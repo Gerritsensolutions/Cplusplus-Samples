@@ -1,12 +1,3 @@
-// CS311 Stack test program (by Yoshii)
-// -- Should be used to test your stack class thoroughly
-// Note that the client knows nothing about the data members
-// Note that the client does not know about el_t and MAX
-// -- STUDY THIS so that you can write your own test
-// programs for other HW assignments.
-// DO NOT CHANGE!!!!!!!!!!
-//----------------------------------------------------
-
 using namespace std;
 
 #include <iostream>
@@ -16,7 +7,7 @@ using namespace std;
 // This test program tests an integer stack class you have developed.
 // It tests each method using a menu.
 // It displays the stack whenever it is modified.
-// How to use: ./a.out after compiling all .cpp files.
+
 // Overall Algorithm: switch inside a do-while loop
 int main ()
 {
