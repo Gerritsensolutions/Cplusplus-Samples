@@ -1,10 +1,5 @@
-//CS311 Yoshii
-//INSTRUCTION:
-//Look for ** to complete this program (Use control-S)
-//The output should match my hw1stackDemo.out 
-
 //=========================================================
-//HW#: HW1P1 stack application
+//stack application
 //Your name: Tyler Gerritsen
 //Complier:  g++
 //File type: client program client1.cpp
@@ -39,8 +34,6 @@ int main()
      try
        {
 	 item = expression[i];  // current char
-
-	 // ** do all the steps in the algorithm given in Notes-1
 
 	 if ( (item - 48) >= 0 && (item - 48) <= 9 ) {
 	   postfixstack.push(item - 48);
