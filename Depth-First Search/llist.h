@@ -1,11 +1,5 @@
-//CS311 Yoshii
-//INSTRUCTION:
-//Llist class - header file template 
-//You must complete the ** parts and then complete llist.cpp
-//Don't forget PURPOSE and PARAMETERS 
-
 // =======================================================
-// HW#: HW3P1 llist
+// llist
 // Your name: Tyler Gerritsen
 // Compiler:  g++ 
 // File type: header file  llist.h
