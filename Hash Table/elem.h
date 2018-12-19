@@ -1,7 +1,9 @@
-// CS311 Yoshii - el_t for HW8 Hash Table
-// Element type of a list node is defined here
-// el_t can be changed by the client to fit its needs
-//-----------------------------------------------------
+/*
+* elem.h
+* name: Tyler Gerritsen
+* compiler: g++
+* element object that can be easily modified to fit any client's needs
+*/
 
 #include <iostream>
 #include <string>
@@ -18,10 +20,7 @@ class el_t
   el_t();  // to create a blank el_t object
   el_t(int, string); // to create an initialized el_t object
 
-  bool operator==(el_t);  // overload == for search
-  // In search == is used to compare node elements
-  // but what does it mean for this client to compare
-  // node elements?  
+  bool operator==(el_t);  // overload == for search 
 
   // this overloads cout for the el_t object
   // This is a friend function since the receiver object is not el_t
