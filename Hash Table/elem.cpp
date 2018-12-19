@@ -1,7 +1,9 @@
-// CS311 Yoshii - el_t for HW8 Hash Table
-// Element type of a list node is defined here
-// el_t can be changed by the client to fit its needs
-//----------------------------------------------------
+/*
+* elem.cpp
+* name: Tyler Gerritsen
+* compiler: g++
+* element object that can be easily modified to fit any client's needs
+*/
 
 #include "elem.h"
 
