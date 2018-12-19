@@ -1,15 +1,6 @@
-// CS311 : This is the BST implementation file template by Rika Yoshii
-// Each node has an Up link to make it easy to go up the tree.  It must be set as nodes are inserted.  Some deletion
-// cases require Up link to be updated.
-//
-// INSTRUCTIONS:
-// Look for ** comments to complete this file for HW4
-// Try not to delete the ** comments
-// Make sure all { } match. Doing Tab on each line helps.
-
 // =========================================================
-//HW#: HW4 BST
-//Your name: Tyler Gerritsen
+//BST
+//name: Tyler Gerritsen
 //Complier:  g++
 //File type: implementation file binstree.cpp
 //================================================================
@@ -95,8 +86,7 @@ bool BST::PREorderSearch(Vertex *V, elem_t K)
 
 // PURPOSE: Adds a vertex to the binary search tree for a new element 
 // PARAM: the new element E
-// ALGORITHM: We will do this iteratively (not recursively)
-// to demonstrate the algorithm that is in the notes
+// ALGORITHM: performed iteratively (not recursively)
 //    - smaller than the current -> go to the left
 //    - bigger than the current  -> go to the right
 //    - cannot go any further    -> add it there
@@ -266,10 +256,7 @@ void BST::remove(Vertex *V, Vertex *P)
   else if ( V->Right == NULL ) // ** if V has just the left child so bypass V (case 2)
 	{
 	  cout << "removing a vertex with just the left child" << endl;
-	  // ** You need if then else to determine Parent's left or right
-	  // ** should point to V's left child; Make the left child
-          // ** point UP to the parent;
-	  // ** Be sure to delete V
+	  // ** if then else to determine Parent's left or right
 	  Vertex *temp = V->Left;
 	  if ( P->Left == V ) {
 	    P->Left = V->Left;
@@ -286,10 +273,7 @@ void BST::remove(Vertex *V, Vertex *P)
   else if ( V->Left == NULL ) // ** if V has just the right child so bypass V (case 2)
 	{
 	  cout << "removing a vertex with just the right child" << endl;
-       // ** You need if then else to determine Parent's left or right
-	  // ** should point to V's right child; make the right child
-          // ** point UP to the parent;   
-          // ** Be sure to delete V
+       // ** if then else to determine Parent's left or right
 	  Vertex *temp = V->Right;
 	  if ( P->Left == V ) {
 	    P->Left = V->Right;
@@ -336,41 +320,6 @@ elem_t BST::findMax(Vertex *V)
   
 }// end of FindMax
 
-// Climbs up from the vertex to compute Height and Balance Factor
-// of all ancestors and displays them as they are computed.
-// This should be called whenever a vertex (N) is inserted
-// This should called whenever a vertex is deleted (i.e. delete V)
-void BST::climbup(Vertex* V)
-{
-  cout << "...Start climbing up to adjust heights ......" << endl;
-  while (V != NULL)
-    {
-      // ** compute V->Height  based on the left/right children
-      if ( V->Left == NULL && V->Right == NULL ) {
-	V->Height = 0;
-      }
-      else if ( V->Left == NULL ) {
-	Vertex *P = V->Right;
-	V->Height = P->Height + 1;
-	delete P;
-      }
-      else if ( V->Right == NULL ) {
-	Vertex *P = V->Left;
-	V->Height = P->Height + 1;
-	delete P;
-      }
-      else {
-	Vertex *Pr = V->Right;
-	Vertex *Pl = V->Left;
-	V->Height = ((Pr->Height > Pl->Height) ? Pr->Height : Pl->Height) + 1;
-      }
-      // ** compute V->Balance based on the left/right children
-      cout << "..." << V->Elem << "'s height: "
-           << V->Height << " with balance: "
-           << V->Balance << endl;
-      // ** go up to the parent
-      V = V->Up;
-    }
 }
 
 
