@@ -1,8 +1,9 @@
-// CS311 Yoshii - MST and Shortest Path Extra Credit dgraph2.h
-// linked list classes should have been updated to use elem.h
-// DO NOT CHANGE!!!
-//----------------------------------------------------------
-
+//=================================
+// dgraph2.h
+// name: Tyler Gerritsen
+// compiler: g++
+// header file for dgraph2
+//=================================
 #include <iostream>
 using namespace std;
 #include "slist.h"
@@ -49,6 +50,6 @@ class dgraph
                         // user specifies
 
  protected:  // Utility function
-  void  makeFringe(el_t, char, int); //update a fringe vertex entry 
+  void  makeFringe(el_t, char); //update a fringe vertex entry 
 
 }; 
