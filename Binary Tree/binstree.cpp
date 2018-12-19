@@ -3,6 +3,7 @@
 //name: Tyler Gerritsen
 //Complier:  g++
 //File type: implementation file binstree.cpp
+//Binary search tree implementation
 //================================================================
 
 using namespace std;
