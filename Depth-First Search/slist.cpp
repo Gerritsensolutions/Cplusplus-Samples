@@ -9,8 +9,6 @@ using namespace std;
 #include<iostream>
 #include "slist.h"
 
-// Make sure llist constructor and destructors have couts in them
-
 // default constructor
 slist::slist() {
   //cout << "slist constructor: " << endl;
