@@ -1,1 +1,2 @@
-Basic binary tree design with some tests run on it in the client file
+Basic binary tree design with some tests run on it in the client file. Unit-tester.cpp is not intended to be compiled with
+the rest of the project. It is intended for debugging purposes only
