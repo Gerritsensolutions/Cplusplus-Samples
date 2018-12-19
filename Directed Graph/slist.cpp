@@ -1,7 +1,5 @@
-// CS311 Complete all functions with their comments
-
 //=============================================
-//HW#: HW3P1 slist
+//slist
 //Your name: Tyler Gerritsen
 //Compiler: g++
 //File type: slist.cpp implementation file
@@ -10,8 +8,6 @@
 using namespace std;
 #include<iostream>
 #include "slist.h"
-
-// Make sure llist constructor and destructors have couts in them
 
 // default constructor
 slist::slist() {
